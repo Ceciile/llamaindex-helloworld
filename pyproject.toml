@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "llamaindex-helloworld"
+version = "0.1.0"
+description = ""
+authors = ["QianqianFU <qianqian.fu@neoxia.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.10.30"
+python-dotenv = "^1.0.1"
+html2text = "^2020.1.16"
+llama-index-readers-web = "^0.1.9"
+
+[tool.poetry.scripts]
+llamaindex-main = "llamaindex_helloworld.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
