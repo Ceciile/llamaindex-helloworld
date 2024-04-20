@@ -11,6 +11,7 @@ llama-index = "^0.10.30"
 python-dotenv = "^1.0.1"
 html2text = "^2020.1.16"
 llama-index-readers-web = "^0.1.9"
+pinecone-client = "^3.2.2"
 
 [tool.poetry.scripts]
 llamaindex-main = "llamaindex_helloworld.main:main"
